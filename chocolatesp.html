@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+	initial-scale=1.0">
+    <title>Dhruv21</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+
+
+        }
+
+        #neozb {
+            position: absolute;
+            top: 5%;
+            left: 2%;
+            font-size: 4rem;
+            color: whitesmoke;
+            background: radial-gradient(rgb(240, 116, 116), rgb(128, 0, 0));
+            padding: 2rem 1rem;
+            border-radius: 3rem;
+            border: 2px dashed rgb(7, 3, 24);
+            font-family: Rockwell;
+        }
+
+        #container1 {
+            background: rgb(7, 3, 24);
+            height: 15rem;
+            width: 100rem;
+        }
+
+        html {
+            font-size: 10px;
+            height: 45%;
+            width: 45%;
+        }
+
+        p {
+            font-family: Ink Free;
+            font-weight: 900;
+            font-size: 6rem;
+            height: 220px;
+            max-width: 200px;
+            position: relative;
+            margin: 1.0rem 1.0rem;
+            padding: 2.0rem 1.5rem;
+            background: rgba(0, 128, 117, 0.007);
+            display: flex;
+            flex-direction: column;
+
+            transition: 0.3s ease-in-out;
+     
+     
+     
+            box-shadow: 2.0rem 2.0rem 5.0rem rgb(0, 0, 0, 0.4);
+            border-radius: 1.5rem;
+            color: white;
+
+            text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ff2391 0px 0px 20px, #FF2D95 0px 0px 30px, #ff3c9e 0px 0px 40px, #9b1b5b 0px 0px 50px, #d8257e 0px 0px 75px;
+
+
+            text-align: start;
+            text-shadow: 2px, 2px, yellowgreen;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(6px);
+        }
+
+        :root {
+            --tc:
+
+                height: 72.0px;
+            width: 99rem;
+            position: relative;
+            box-shadow: 2.0rem 2.0rem 5.0rem rgb(0, 0, 0, 0.4);
+            border-radius: 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(6px);
+
+        }
+
+        .fullpad {
+            background-image: var(--tc);
+            display: flex;
+            flex-direction: row
+        }
+    </style>
+</head>
+<script src="vanilla-tilt.js">
+</script>
+
+<script>
+    VanillaTilt.init(document.querySelector("#neozb"), {
+        max: 40,
+        speed: 800,
+        glare: true,
+        "max-glare": 2.5,
+    }); 
+</script>
+
+<body>
+    <section id="container1">
+        <button id="neozb">
+            Howspain Chocolates|
+        </button>
+    </section>
+
+    <section class="fullpad">
+        <p>Royal </p>
+        <p>Classic </p>
+        <p>Rich</p>
+        <p>Taste </p>
+    </section>
+
+</body>
+
+</html>
